@@ -10,7 +10,7 @@ The intent is to demonstrate the ability of these models to perform non-ambigiou
 <br>
 ## Milestones
 <ol>
-  <li>Environment setup<li>Set up required tokens and libraries</li><li>Characterize the dataset</li></li>
+  <li>Environment setup<ol><li>Set up required tokens and libraries</li><li>Characterize the dataset</li></ol></li>
   <li>Data Preparation<li>Format dataset into appropriate data structure</li><li>Format and tokenize dataset tuples into queries</li></li>
   <li>Gemma 3 with QloRA implementation</li>
   <li>DeepSeek-R1 with QloRA implementation</li>
