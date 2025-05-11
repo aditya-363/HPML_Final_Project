@@ -11,7 +11,7 @@ The intent is to demonstrate the ability of these models to perform non-ambigiou
 ## Milestones
 <ol>
   <li>Environment setup<ol><li>Set up required tokens and libraries</li><li>Characterize the dataset</li></ol></li>
-  <li>Data Preparation<li>Format dataset into appropriate data structure</li><li>Format and tokenize dataset tuples into queries</li></li>
+  <li>Data Preparation<ol><li>Format dataset into appropriate data structure</li><li>Format and tokenize dataset tuples into queries</li></ol></li>
   <li>Gemma 3 with QloRA implementation</li>
   <li>DeepSeek-R1 with QloRA implementation</li>
   <li>Baseline benchmarking for Gemma 3</li>
@@ -20,3 +20,7 @@ The intent is to demonstrate the ability of these models to perform non-ambigiou
   <li>Evaluate optimal hyperparameters using W&B</li>
   <li>Benchmarking on fine tuned models</li>
 </ol>
+<br>
+## Repository structure
+This repo contains two notebooks initially run on Kaggle using the P100 GPU. One for Gemma and the other for DeepSeek R1. Required library dependencies are handled within the notebook.
+<br>
