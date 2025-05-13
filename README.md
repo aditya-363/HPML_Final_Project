@@ -24,6 +24,16 @@ The intent is to demonstrate the ability of these models to perform non-ambigiou
 </ol>
 <br>
 
+## Results
+Both models performed faster or at about the same inference speed as before fine-tuning. Gemma seemed to be CPU bottlenecked during inference and performed slower compared to DeepSeek-R1. CoT improved slightly after fine-tuning. 
+Loss over training steps - Gemma
+![Screenshot 2025-05-08 202357](https://github.com/user-attachments/assets/e667f7ff-82be-45dc-8f8e-eb1eb938c7b1)
+Loss over training steps - DeepSeek-R1
+![Screenshot 2025-05-08 200123](https://github.com/user-attachments/assets/1603be8e-e4ee-4055-bed4-e533ae76c986)
+Learning Rate over training steps
+![Screenshot 2025-05-08 200236](https://github.com/user-attachments/assets/63cb26d0-f0cf-4ecb-b474-013f2930de8b)
+
+
 ## Repository structure
 This repo contains two notebooks initially run on Kaggle using the P100 GPU. One for Gemma and the other for DeepSeek R1. Required library dependencies are handled within the notebook.
 <br>
